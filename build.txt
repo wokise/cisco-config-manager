@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --paths ..\venv\Lib\site-packages --upx-dir ..\upx --icon=gui\resources\favicon.ico -n "Cisco Config Manager" --clean main.py
